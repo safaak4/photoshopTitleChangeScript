@@ -21,7 +21,7 @@ layer_name = doc.ArtLayers["namelayer"]
 
 i = 0
 
-while i <= len(name_list):
+while i < len(name_list):
     text_of_layer = layer_name.TextItem
     text_of_layer.contents = name_list[i]
 
